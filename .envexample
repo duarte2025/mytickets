@@ -1,0 +1,27 @@
+# Environment 
+ENV=development
+
+# Server
+SERVERPORT=8000
+APPNAME=My tickets
+READ_TIMEOUT=10s
+READ_HEADER_TIMEOUT=10s
+WRITE_TIMEOUT=20s
+IDLE_TIMEOUT=120s
+
+# Database
+DBHOST=postgres
+DBNAME=api_mytickers
+DBPORT=5432
+DBUSER=root
+DBPASS=secret
+
+# Redis
+REDISADDR=redis:6379
+REDISPASS=secret
+
+# New Relic Metrics
+NEWRELICKEY=
+
+# JWT 
+JWTSECRET=secret
